@@ -3,9 +3,9 @@
 
 {% block content %}
 
-    <h1>Products</h1>
+    <h1>Smartphones available</h1>
 
-    <p class="lead">This is the products page</p>
+    <p class="lead">Here you would find your next smartphones at affordable prices</p>
 
     {% if products|length > 0 %}
 
@@ -13,7 +13,7 @@
         <div class="row">
             {% for product in products %}
                 <div class="col">
-                    <div class="card" style="width: 18rem; margin-bottom: 20px;">
+                    <div class="card" style="width: 16rem; margin-bottom: 40px;">
                         <img class="card-img-top" src="{{ product.url }}" alt="an image of '{{ product.name }}'">
                         <div class="card-body">
                             <h5 class="card-title">{{ product.name }}</h5>
