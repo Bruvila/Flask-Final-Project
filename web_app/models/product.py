@@ -1,12 +1,12 @@
 
 DEFAULT_PRODUCTS = [
     # see: https://picsum.photos/images
-    {'id': 1, 'name': 'Strawberries', 'description': 'Juicy organic strawberries.', 'price': 4.99, 'url': 'https://picsum.photos/id/1080/360/200'},
-    {'id': 2, 'name': 'Cup of Tea', 'description': 'An individually-prepared tea or coffee of choice.', 'price': 3.49, 'url': 'https://picsum.photos/id/225/360/200'},
-    {'id': 3, 'name': 'Textbook', 'description': 'It has all the answers.', 'price': 129.99, 'url': 'https://picsum.photos/id/24/360/200'},
-    {'id': 4, 'name': 'Online Course', 'description': 'Level up your programming skills.', 'price': 129.99, 'url': 'https://picsum.photos/id/180/360/200'},
-    {'id': 5, 'name': '________', 'description': '___________.', 'price': 0.99, 'url': '__________'},
-    {'id': 6, 'name': '________', 'description': '___________.', 'price': 0.99, 'url': '__________'}
+    {'id': 1, 'name': 'iPhone 14', 'description': 'Juicy organic strawberries.', 'price': 1099.99, 'url': 'https://i.ibb.co/r5n06vf/IMG-7445.jpg'},
+    {'id': 2, 'name': 'Windows PhoneX', 'description': 'An individually-prepared tea or coffee of choice.', 'price': 873.49, 'url': 'https://i.ibb.co/yp5c9L1/IMG-7446.jpg'},
+    {'id': 3, 'name': 'Nokia XP1', 'description': 'It has all the answers.', 'price': 829.99, 'url': 'https://i.ibb.co/SJkM9y5/IMG-7447.jpg'},
+    {'id': 4, 'name': 'Windows OpenAI', 'description': 'Level up your programming skills.', 'price': 629.99, 'url': 'https://i.ibb.co/dQFqD8j/IMG-7451.jpg'},
+    {'id': 5, 'name': 'Samsung NH4', 'description': '___________.', 'price': 599.99, 'url': 'https://i.ibb.co/B2QXQXh/IMG-7453.jpg'},
+    {'id': 6, 'name': 'Tesla Phone RM1', 'description': '___________.', 'price': 789.99, 'url': 'https://i.ibb.co/tJSP595/IMG-7456.jpg'}
 ]
 
 
