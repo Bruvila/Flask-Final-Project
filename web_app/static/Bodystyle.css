@@ -1,6 +1,13 @@
 
 /* https://stackoverflow.com/a/22603610 */
 
+.container4 {
+  background-color: rgb(232, 232, 232);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
 .container8 {
   position: relative;
   text-align: center;
@@ -43,4 +50,59 @@
      font-size: 20px;
    }
 
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.container5 {
+  background-color: rgb(243, 219, 196);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
 
+.container6 {
+  padding-top: 2rem;
+}
+
+.container7,
+.container7-fluid,
+.container7-xxl,
+.container7-xl,
+.container7-lg,
+.container7-md,
+.container7-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.2);
+  padding-left: calc(var(--bs-gutter-x) * 0.2);
+  margin-top: 3rem;
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #e03a3c;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e03a3c;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.8;
+  transition: 0.3s;
+  filter: grayscale(70);
+}
+
+.clients .swiper-slide img:hover {
+  opacity: 1;
+  filter: none;
+}
