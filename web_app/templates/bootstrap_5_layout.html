@@ -52,6 +52,13 @@
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
         {% for category, message in messages %}
+            
+        <style>
+          body {
+            background-image: url('https://i.ibb.co/xCvDs82/Xiaomi20.png');
+          }
+          </style>
+
             <!--
                 BOOTSTRAP ALERTS
                 https://getbootstrap.com/docs/5.0/components/alerts/#dismissing
@@ -95,7 +102,12 @@
                 <!--<i class="bi bi-phone" style="font-size: 1.7rem; color: white;"></i>
                 -->
 
-                <img src="https://www.imagehost.at/images/2023/05/06/Image-extended-min.png" alt="" width="20" height="20">
+                <img class="rounded-circle"
+                src="https://i.ibb.co/cNVLyS0/StudLogo.jpg"
+                height="32px"
+                width="32px"
+                referrerpolicy="no-referrer"
+                >
                 &nbsp;
                 StudCell
             </a>
@@ -160,10 +172,11 @@
         <div id="content">
             {% block content %}
             {% endblock %}
+
         </div>
 
 <!-- ======= Footer ======= -->
-  <footer style="margin-top:2em; margin-bottom:2em;" id="footer" class="footer">
+  <footer style="margin-top:2em;" id="footer" class="footer">
 
     <hr>
     <div class="container">
